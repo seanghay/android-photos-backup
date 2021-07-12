@@ -1,0 +1,12 @@
+{
+  "name": "android-photos-backup",
+  "version": "1.0.0",
+  "description": "Android Photos Backup",
+  "main": "src/main.js",
+  "author": "Seanghay Yath <seanghay.dev@gmail.com>",
+  "bin": "src/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "adbkit": "^2.11.1"
+  }
+}
