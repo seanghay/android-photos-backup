@@ -1,6 +1,6 @@
 {
   "name": "android-photos-backup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Android Photos Backup",
   "main": "src/main.js",
   "author": "Seanghay Yath <seanghay.dev@gmail.com>",
