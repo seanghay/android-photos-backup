@@ -2,7 +2,6 @@
 
 A script for pulling and matching files from Android device.
 
-
 ### Install
 
 ```sh
@@ -20,3 +19,5 @@ android-photos-backup /sdcard/DCIM/Camera
 ```
 
 It will create a directory `android-backup` inside the current directory.
+
+Files that are already copied will be ignored.
