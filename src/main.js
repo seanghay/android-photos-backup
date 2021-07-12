@@ -44,7 +44,7 @@ async function listPhotos(client, device, source) {
     const percentage = (proceededCount / totalCount) * 100;
     const sourcePath = path.join(source, file.name);
     const destinationPath = path.join(destDir, file.name);
-    const alreadyExisted = await fileExists(path.join(destinationPath))
+    const alreadyExisted = await fileExists(destinationPath)
     if (alreadyExisted) {
       totalCount--;
       continue;
